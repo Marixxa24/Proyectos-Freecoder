@@ -1,0 +1,46 @@
+/* Estilo del contenedor general del testimonio. */
+.contenedor-testimonio {
+  width: 1170px; /* Ancho del contenedor */
+  height: 468px; /* Altura del contenedor */
+  margin: 10px 10px 50px; /* Márgenes superior, derecho, inferior e izquierdo del contenedor */
+  display: flex; /* Utiliza el modelo de caja flexible (flexbox) */
+  align-items: center; /* Centra verticalmente los elementos secundarios dentro del contenedor */
+  justify-content: center; /* Centra horizontalmente los elementos secundarios dentro del contenedor */
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 9%); /* Sombra para dar profundidad */
+}
+
+/* Estilo de la imagen dentro del testimonio */
+.imagen-testimonio {
+  height: 100%; /* Ocupa el 100% de la altura del contenedor */
+  width: auto; /* Ajusta automáticamente el ancho para mantener la proporción original */
+}
+
+/* Estilo del contenedor de texto dentro del testimonio */
+.contenedor-texto-testimonio {
+  text-align: center; /* Centra el texto horizontalmente */
+  padding: 30px; /* Relleno interno del contenedor de texto */
+  font-family: Lato, sans-serif; /* Fuente del texto */
+  font-weight: 200; /* Peso de la fuente (200 es ligero) */
+  line-height: 1.4em; /* Altura de línea */
+}
+
+/* Estilo del nombre del testimonio */
+.nombre-testimonio {
+  font-size: 1.3rem; /* Tamaño de fuente */
+  margin-left: 5px; /* Márgenes a la izquierda */
+}
+
+/* Estilo del cargo del testimonio */
+.cargo-testimnio {
+  font-size: 1.3rem; /* Tamaño de fuente */
+  margin-top: 15px; /* Márgenes en la parte superior */
+  margin-left: 5px; /* Márgenes a la izquierda */
+  padding-bottom: 1.1rem; /* Relleno en la parte inferior */
+}
+
+/* Estilo del texto del testimonio */
+.texto-testimonio {
+  font-size: 1.1rem; /* Tamaño de fuente */
+  text-align: justify; /* Alineación justificada del texto */
+}
